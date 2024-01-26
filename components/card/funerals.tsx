@@ -78,9 +78,9 @@ export function Funerals() {
                       <Image
                         src={item.imageSrc}
                         alt={item.alt}
-                        width={300}
-                        height={300}
-                        className="rounded-full"
+                        width={500}
+                        height={500}
+                        className="rounded-lg"
                       />
                       <div className="flex gap-y-2 flex-col">
                         {item.content}

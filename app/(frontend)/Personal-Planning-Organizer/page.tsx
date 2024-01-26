@@ -16,7 +16,7 @@ const page = () => {
           <span className="text-5xl font-bold">
             Personal Planning Organizer
           </span>
-          <span className="w-[1200px]">
+          <span className="w-[1200px] text-center">
             When you organize and plan in advance your family will be spared
             difficult decisions during an already emotional and difficult time.
           </span>

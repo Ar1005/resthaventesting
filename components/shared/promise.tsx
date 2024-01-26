@@ -200,11 +200,11 @@ export function Promise() {
                       <Image
                         src={item.imageSrc}
                         alt={item.alt}
-                        width={300}
-                        height={300}
-                        className="rounded-full"
+                        width={400}
+                        height={400}
+                        className="rounded-lg"
                       />
-                      <div className="flex gap-y-2 flex-col">
+                      <div className="flex text-sm gap-y-2 flex-col">
                         {item.content}
                       </div>
                     </CardContent>
