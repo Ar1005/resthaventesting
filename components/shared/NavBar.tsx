@@ -51,26 +51,26 @@ function NavBar() {
               }`}
             >
               <ul className="h-screen bg-neutral-900 lg:h-auto items-center justify-center lg:flex flex-col font-semibold ">
-                <li className="py-4 text-lg text-neutral-100 md:px-2 text-center border-b-[1px] md:border-b-0  hover:bg-[#6c9c81]  border-neutral-150  md:hover:text-[#6c9c81] md:hover:bg-transparent">
+                <li className="py-4 text-lg text-neutral-100 md:px-2 text-center border-b-[1px] md:border-b-0  hover:bg-[#6c9c81]  border-neutral-150  md:hover:text-neutral-100 md:hover:bg-transparent">
                   <Link href="/" onClick={() => setNavbar(!navbar)}>
                     Home
                   </Link>
                 </li>
-                <li className="py-4 text-lg text-neutral-100 px-2 text-center  border-b-[1px] md:border-b-0  hover:bg-[#6c9c81]  border-neutral-150  md:hover:text-[#6c9c81] md:hover:bg-transparent">
+                <li className="py-4 text-lg text-neutral-100 px-2 text-center  border-b-[1px] md:border-b-0  hover:bg-[#6c9c81]  border-neutral-150  md:hover:text-neutral-100 md:hover:bg-transparent">
                   <Link href="/Flower-Gifts" onClick={() => setNavbar(!navbar)}>
                     Send Flower & Gifts
                   </Link>
                 </li>
-                <li onClick={() => setNavbar(!navbar)} className="py-4 text-lg text-neutral-100 px-2 text-center  border-b-[1px] md:border-b-0  hover:bg-[#6c9c81]  border-neutral-150  md:hover:text-[#6c9c81] md:hover:bg-transparent">
+                <li onClick={() => setNavbar(!navbar)} className="py-4 text-lg text-neutral-100 px-2 text-center  border-b-[1px] md:border-b-0  hover:bg-[#6c9c81]  border-neutral-150  md:hover:text-neutral-100 md:hover:bg-transparent">
                   <PlanAhead />
                 </li>
-                <li onClick={() => setNavbar(!navbar)} className="py-4 text-lg text-neutral-100 px-2 text-center  border-b-[1px] md:border-b-0  hover:bg-[#6c9c81]  border-neutral-150  md:hover:text-[#6c9c81] md:hover:bg-transparent">
+                <li onClick={() => setNavbar(!navbar)} className="py-4 text-lg text-neutral-100 px-2 text-center  border-b-[1px] md:border-b-0  hover:bg-[#6c9c81]  border-neutral-150  md:hover:text-neutral-100 md:hover:bg-transparent">
                   <ImmediateNeed />
                 </li>
-                <li onClick={() => setNavbar(!navbar)} className="py-4 text-lg text-neutral-100 px-2 text-center  border-b-[1px] md:border-b-0  hover:bg-[#6c9c81]  border-neutral-150  md:hover:text-[#6c9c81] md:hover:bg-transparent">
+                <li onClick={() => setNavbar(!navbar)} className="py-4 text-lg text-neutral-100 px-2 text-center  border-b-[1px] md:border-b-0  hover:bg-[#6c9c81]  border-neutral-150  md:hover:text-neutral-100 md:hover:bg-transparent">
                   <Resources />
                 </li>
-                <li onClick={() => setNavbar(!navbar)} className="py-4 text-lg text-neutral-100 px-2 text-center  border-b-[1px] md:border-b-0  hover:bg-[#6c9c81]  border-neutral-150  md:hover:text-[#6c9c81] md:hover:bg-transparent">
+                <li onClick={() => setNavbar(!navbar)} className="py-4 text-lg text-neutral-100 px-2 text-center  border-b-[1px] md:border-b-0  hover:bg-[#6c9c81]  border-neutral-150  md:hover:text-neutral-100 md:hover:bg-transparent">
                   <WhoWeAre />
                 </li>
               </ul>
